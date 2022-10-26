@@ -1,0 +1,24 @@
+{
+    "files.associations": {
+        "cstdlib": "c",
+        "stdio.h": "c",
+        "typeinfo": "c",
+        "cmath": "c",
+        "stdlib.h": "c",
+        "iostream": "cpp"
+    },
+    "cSpell.words": [
+        "coef",
+        "expon",
+        "IMAX",
+        "movieid"
+    ],
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#21252B",
+        "titleBar.activeBackground": "#21252B",
+        "titleBar.activeForeground": "#E8FFF1"
+    }
+    "editor.tokenColorCustomizations": {
+        "comments": "#bbbbba" //棕色
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+    
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "targetArchitecture": "x86",
+            "program":"C:\\Windows\\System32\\cmd.exe",
+            "miDebuggerPath": "E:/VSCODE/bin/gdb.exe",
+            "args": ["/C","${fileDirname}/${fileBasenameNoExtension}.exe","&","pause"],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "externalConsole": true,
+            "preLaunchTask": "g++"
+        }
+    ]
+}
